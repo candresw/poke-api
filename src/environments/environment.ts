@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  urlPokes: 'Develo'
+  urlPokes: ' https://pokeapi.co/api/v2/'
 };
 
 /*
