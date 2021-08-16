@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SaludoComponent } from './saludo/saludo.component';
+import { PokemonApiComponent } from './pokemon-api/pokemon-api.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SaludoComponent,
+    PokemonApiComponent
   ],
   imports: [
     BrowserModule,
