@@ -1,3 +1,9 @@
-<div>
-    <h1>Hola</h1>
-</div>
+<div class="card container mb-5" style="width: 18rem;" *ngIf="select" >
+    <img src={{pokemon.sprites.front_default}} class="card-img-top" alt="Pokemon">
+    <div class="card-body">
+      <h1>ID: {{ pokemon.id }}</h1>
+      <h2 class="card-title">NOMBRE: {{ pokemon.name }}</h2>
+      <h3 class="card-title">WEIGHT: {{ pokemon.weight }}</h3>
+      <a href="#" class="btn btn-danger">Eliminar</a>
+    </div>
+  </div>

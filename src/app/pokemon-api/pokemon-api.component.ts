@@ -8,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PokemonApiComponent implements OnInit {
 
+  nombre: string = '';
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  imrpimir( nombre: string ): void {
+
+    console.log(nombre);
+
   }
 
 }

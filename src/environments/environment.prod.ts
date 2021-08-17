@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  urlPokes: 'production'
+  urlPokes: 'https://pokeapi.co/api/v2/'
 };

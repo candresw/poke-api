@@ -1,11 +1,11 @@
 <div class="row">
     <div class="col text-center">
-        <app-lista></app-lista>
+        <app-lista (selectedPoke)="nombre = $event" ></app-lista>
     </div>
 </div>
 <div class="row">
     <div class="col text-center">
-        <app-informacion></app-informacion>
+        <app-informacion [id]="nombre"  ></app-informacion>
     </div>
 </div>
 
