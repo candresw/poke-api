@@ -19,7 +19,7 @@ export class PokesService {
     }
 
     post( req: requesContainer ): Observable<requesContainer> {
-      return this.http.post<requesContainer>(this.url, req);
+      return this.http.post<requesContainer>(this.url, req);                    
     }
 
     getId( id: string ): Observable<SinglePoke> {

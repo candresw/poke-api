@@ -32,7 +32,7 @@ export class ListaComponent implements OnInit {
   getPokes( page: number ): void {
 
     let offset: number = (page - 1) * 10;
-    let params: HttpParams = new HttpParams().append('limit', '10').append('offset', offset.toString());
+    let params: HttpParams = new HttpParams().append('limit', '20').append('offset', offset.toString());
 
     this.PokesSvc.get(params).subscribe(res => {
       this.request = res;
